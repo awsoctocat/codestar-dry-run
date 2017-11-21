@@ -41,7 +41,6 @@ Resources:
   ResizeFunction:
         Type: AWS::Serverless::Function
         Properties:
-          CodeUri: ./
           Handler: index.handler
           Runtime: nodejs6.10
           MemorySize: 1024
